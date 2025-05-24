@@ -169,6 +169,9 @@ int main() {
     scanf("%d", &rows);
 
     for (int i = 0; i < rows; i++) {
+        for (int k = 0; k < rows - i - 1; k++) {
+            printf("  ");
+        }
         for (int j = 0; j <= i; j++) {
             printf("%s ", str);
         }
@@ -177,11 +180,12 @@ int main() {
 
     return 0;
 }
+
 ```
 
  ## OUTPUT
 
- ![image](https://github.com/user-attachments/assets/34e41b26-2266-4944-83d1-30995afe9e08)
+![image](https://github.com/user-attachments/assets/e27d5bb2-437a-4d32-a937-833630816e8e)
 
 
 ## RESULT
